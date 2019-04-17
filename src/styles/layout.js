@@ -3,7 +3,7 @@ const layoutStyles = theme => ({
         display: "grid",
         "min-height": "100vh",
         "grid-template-columns": "1.82fr 10.50fr",
-        "grid-template-rows": "1fr 50fr",
+        "grid-template-rows": "1fr 20fr",
         "grid-template-areas": `
             "logo header header header"
             "nav main main main"
