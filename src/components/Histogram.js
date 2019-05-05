@@ -22,33 +22,6 @@ type Series = {
     data: Array<number>,
 };
 
-type Props = {
-    /**
-     * Main title of the histogram chart
-     */
-    title: string,
-
-    /**
-     * Options to display at x-axis
-     */
-    categories: Array<string>,
-
-    /**
-     * x-axis title
-     */
-    xAxisTitle: ?string,
-
-    /**
-     * y-axis title
-     */
-    yAxisTitle: ?string,
-
-    /**
-     * Data to be displayed on the chart
-     */
-    data: Array<Series>,
-};
-
 const getOptions = theme => ({
     chart: {
         type: "column",
